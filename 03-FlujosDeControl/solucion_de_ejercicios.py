@@ -83,8 +83,22 @@ for i in range(1,31):
 
 # 12) Si la cantidad de números que se evalúa es mayor a treinta, esa optimización crece?
 
-# 13) Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
+# 13) Aplicando continue, armar un ciclo while que solo imprima los valores 
+# divisibles por 12, dentro del rango de números de 100 a 300
+a = 100
+while a <=300:
+    if a % 12 == 0:
+        print(a, "Es divisible por 12")
+    a +=1
+
 
 # 14) Utilizar la función **input()** que permite hacer ingresos por teclado, para encontrar números primos y dar la opción al usario de buscar el siguiente
 
 # 15) Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
+
+a = 100 
+while a <=300:
+    if a % 3 == 0 and type(a // 6) == int :
+        print(f"{a} Primer numero entre 100 y 300, que es divisible en tres y multiplo de 6")
+        break
+    a += 1
