@@ -8,7 +8,7 @@
 # In[4]:
 
 
-a = 10
+a = 11
 if (a < 0):
     print('La variable es menor a cero')
 elif (a > 0): 
